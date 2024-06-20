@@ -1,0 +1,14 @@
+#header{
+    background-color: black;
+}
+
+
+body{
+    background-color: rgb(3, 166, 166);
+}
+
+#apod-image img{
+
+    width: 40%;
+    height: auto;
+}
