@@ -1,10 +1,17 @@
 #header{
     background-color: black;
+    padding: 10px;
 }
 
 
+#header img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 body{
-    background-color: rgb(3, 166, 166);
+
 }
 
 #apod-image img{
