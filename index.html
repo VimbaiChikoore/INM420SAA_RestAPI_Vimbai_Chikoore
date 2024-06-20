@@ -8,15 +8,26 @@
     <link href=" https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css" rel="stylesheet">
     <!-- css -->
     <link rel="stylesheet" href="assets/css/style.css"/>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="header">
         <img src="assets/images/NASA_logo.png" width="100px">
     </div>
 
-    <div id="apod-title"></div>
-    <div id="apod-image"></div>
-    <div id="apod-desc"></div>
+    <section id="apod-container">
+        <div id="apod-image"></div>
+        <div id="apod-desc">
+            <p id="page-name">Nasa Astronomy Picture of the Day</p>
+            <div id="apod-title"></div>
+            <div id="apod-expl"></div>
+        </div>
+    </section>
+    
 
 <!-- Javascript link -->
     <script src="js/main.js"></script>

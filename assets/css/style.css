@@ -10,12 +10,46 @@
     margin-right: auto;
 }
 
-body{
-
+#apod-container{
+    display: inline-flex;
+    margin: 4em;
 }
 
 #apod-image img{
-
-    width: 40%;
+    width: 100%;
     height: auto;
+}
+
+#apod-desc{
+    padding-left: 2em;
+} 
+
+#apod-desc p{
+    /* padding:10px 0 10px 0; */
+}
+
+#page-name{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    color: rgb(28, 28, 28);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+
+#apod-title{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    padding-bottom: 1em;
+    color: rgb(28, 28, 28);
+}
+
+#apod-expl{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 2;
 }

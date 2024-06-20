@@ -5,7 +5,7 @@ async function getData(apiKey) {
     const result = await data.json();
     const image = result.hdurl;
     const title = result.title;
-    const desc = result.explanation;
+    const expl = result.explanation;
 
     
     const imageResult = document.getElementById('apod-image');
@@ -14,8 +14,8 @@ async function getData(apiKey) {
     const titleResult = document.getElementById('apod-title');
     titleResult.innerHTML = `<p>${title}</p>`
 
-    const descResult = document.getElementById('apod-desc');
-    descResult.innerHTML = `<p>${desc}</p>`
+    const explResult = document.getElementById('apod-expl');
+    explResult.innerHTML = `<p>${expl}</p>`
 
     // console.log(image);
 }
